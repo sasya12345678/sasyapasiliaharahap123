@@ -1,0 +1,77 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  background: linear-gradient(to bottom, #fff7a5, #aee3ff);
+  color: #333;
+}
+
+header {
+  background-color: #ffd84d;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 5px solid #69b8ff;
+}
+
+header h1 {
+  margin: 0;
+  color: #2c2c2c;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #007bff;
+}
+
+.hero, .content {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #69b8ff;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 30px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 4px solid #ffd84d;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffd84d;
+  border-top: 5px solid #69b8ff;
+}
